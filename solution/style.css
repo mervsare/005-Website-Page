@@ -1,0 +1,155 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+body {
+  background-color: #35424a;
+}
+.header {
+  border-bottom: 5px solid #a9508b;
+  height: 6rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* background-color: #35424a; */
+  color: white;
+  padding: 2rem;
+}
+.header__left span {
+  color: #a9508b;
+}
+
+.header__right a {
+  text-decoration: none;
+  color: white;
+  padding-left: 1rem;
+  text-transform: uppercase;
+}
+.header__right--home {
+  color: #a9508b !important;
+}
+.main {
+  background-image: url("./images/showcase.jpg");
+  height: 350px;
+  background-position: center;
+  /* background-repeat: none; fotografin tekrar etmesini engeller */
+  color: white;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 1rem;
+}
+.main h1 {
+  font-size: 48px;
+}
+.search {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 6rem;
+  color: white;
+  padding: 2rem;
+}
+#email {
+  height: 2.5rem;
+  width: 15rem;
+  text-align: center;
+}
+#submit {
+  background-color: orangered;
+  color: white;
+  height: 2.5rem;
+  width: 5rem;
+  border: none;
+  cursor: pointer;
+}
+.main__bottom {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  padding: 1.5rem;
+  background-color: white;
+}
+article img {
+  width: 15%;
+}
+.main__bottom article {
+  margin: 0.5rem;
+}
+.main__bottom article h4 {
+  /* padding: 1rem; */
+  margin: 1rem;
+}
+.footer {
+  text-align: center;
+  padding: 2rem;
+  color: white;
+}
+.footer img {
+  width: 220px;
+}
+.about__main {
+  background-color: white;
+  display: flex;
+  padding: 2rem 2rem 23rem;
+}
+.about__main--right {
+  background-color: #35424a;
+  color: white;
+  padding: 2rem 1rem;
+  margin-left: 4rem;
+}
+#about__bottom {
+  background-color: #35424a;
+  color: white;
+  padding: 2rem 1rem;
+  margin-top: 2rem;
+}
+.about__main--left h3 {
+  margin-bottom: 2rem;
+}
+.services__main {
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  padding: 2rem;
+}
+.box {
+  background-color: rgb(234, 234, 234);
+  padding: 2rem 1rem;
+  margin-top: 10px;
+  border: 1px solid rgb(195, 193, 193);
+}
+.box p {
+  margin: 1rem;
+}
+.services__main--right {
+  background-color: #35424a;
+  height: 350px;
+  width: 500px;
+  color: white;
+  padding: 2rem 1rem 1rem;
+}
+#button {
+  background-color: orangered;
+  color: white;
+  height: 2.2rem;
+  width: 4rem;
+  border: none;
+  cursor: pointer;
+}
+.services__main--right h3 {
+  margin-bottom: 1.5rem;
+}
+.services__main--right input {
+  margin: 3px 0 10px;
+  width: 90%;
+  height: 2rem;
+}
+#message {
+  height: 3rem;
+  padding: 0 0 25px;
+}
